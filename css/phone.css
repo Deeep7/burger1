@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bree Serif", serif;
+}
+#home::before {
+  height: 54%;
+}
+.logo {
+  margin: 1px -15px;
+}
+
+.logo img {
+  width: 53px;
+}
+.logoname {
+  font-size: 1rem;
+  height: 24px;
+}
+
+.no img {
+  height: 39px;
+  margin: -14px -7px;
+}
+
+.no {
+  font-size: 12px;
+  top: 2%;
+  right: 2%;
+}
+#navebar ul {
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#home p {
+  display: inline;
+  color: #43200c;
+  border: 2px solid #43200c;
+  border-style: dashed;
+  padding: 10px;
+  font-size: 0.6rem;
+  position: absolute;
+  top: 18%;
+}
+
+.fast {
+  font-size: 4.8rem;
+  color: #43200c;
+  position: absolute;
+  top: 21%;
+  left: 4%;
+  text-shadow: 6px 6px #e7d09e;
+  font-family: "Bree Serif", serif;
+}
+
+.second {
+  font-size: 3rem;
+  color: #43200c;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  text-shadow: 6px 6px #e7d09e;
+  font-family: "Bree Serif", serif;
+}
+
+.navimg img {
+  display: flex;
+  height: 156px;
+  padding: 5px 7px;
+  position: absolute;
+  top: 21%;
+  right: 1%;
+}
+
+.shadow {
+  position: absolute;
+  top: 39%;
+  /* left: 76%; */
+  right: 5%;
+  display: flex;
+  height: 16px;
+  width: 13.3rem;
+  border-radius: 50%;
+  background-color: #918787;
+  border: 1px solid #918787;
+}
+
+#box1 img {
+  height: 23rem;
+  width: 34rem;
+  top: 60%;
+  left: 3%;
+  margin: 1px 1px;
+}
+
+.fast-1 {
+  font-size: 29px;
+  top: 64%;
+  left: 6%;
+}
+
+.second-1 {
+  font-size: 28px;
+  top: 67%;
+  left: 6%;
+}
+
+#box2 img {
+  top: 105%;
+  right: 3%;
+  height: 18rem;
+  width: 34rem;
+  margin: 36px 1px;
+}
+
+.fast-2 {
+  font-size: 29px;
+  top: 109%;
+  right: 0;
+  left: 6%;
+}
+
+.second-2 {
+  font-size: 28px;
+  top: 112%;
+  right: 0;
+  left: 6%;
+}
+
+#box3 img {
+  top: 143%;
+  right: 3%;
+  height: 19rem;
+  width: 93%;
+  margin: 1px 1px;
+}
+
+.fast-3 {
+  font-size: 29px;
+  top: 143%;
+  right: 5%;
+}
+
+.second-3 {
+  font-size: 32px;
+  top: 145.6%;
+  right: 5%;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 8px 2px;
+  margin: 4px 2px;
+  width: 16rem;
+  position: absolute;
+  top: 180%;
+  right: 28%;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.center {
+  font-size: 15px;
+}
+
+#services .box {
+  padding: 34px;
+  margin: 2px 55px;
+  margin-bottom: 20px;
+}
+
+/* .box-ph {
+  flex-direction: column;
+  display: flex;
+  padding: 21px;
+  margin: 2px 7px;
+}
+
+#services .box img {
+  display: block;
+  height: 152px;
+} */
+
+#services {
+  display: none;
+}
+#event {
+  display: none;
+}
+#contact {
+  display: none;
+}
+
+#end {
+  display: none;
+}
